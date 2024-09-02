@@ -23,7 +23,10 @@
 }
 
 .container {
+  display: flex;
+  justify-content: center;
   max-width: 750px;
+  margin: auto;
 }
 
 .icon-title {
