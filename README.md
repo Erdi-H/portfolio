@@ -1,4 +1,4 @@
-# My personal portfolio --> <a href="https://www.erdi.io/">www.erdi.io</a>
+# My personal portfolio --> <a target="_blank" href="https://www.erdi.io/">www.erdi.io</a>
 
 ## Description
 This project was developed using Python Flask, Jinja2, HTML and CSS.
