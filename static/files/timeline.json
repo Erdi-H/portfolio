@@ -1,0 +1,62 @@
+[
+  {
+    "year": "2024",
+    "events": [
+      {
+        "icon": "work",
+        "title": "Application Developer Intern at Lear Corporation",
+        "content": "Implemented new features on a Product Lifecycle Management platform using C#, JavaScript, XML, and SQL. Completed multiple large projects throughout my summer with the company."
+      }
+    ]
+  },
+  {
+    "year": "2022",
+    "events": [
+      {
+        "icon": "work",
+        "title": "Start University",
+        "content": "Two months after leaving the Marine Corps, I started studying Computer Science at the University of Michigan-Ann Arbor."
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "events": [
+      {
+        "icon": "work",
+        "title": "Complete my Marine Corps contract",
+        "content": "My time as a system administrator came to an end, and it was time to move on from infrastructure IT and into software development."
+      }
+    ]
+  },
+  {
+    "year": "2018",
+    "events": [
+      {
+        "icon": "work",
+        "title": "Completion of Training",
+        "content": "Following bootcamp there are two additional schools I needed to attend. The first was MCT (Marine Combat Training) which is one month long. The second was my occupational school, the Data Systems Administrator course, which served as my introduction to the field of IT."
+      },
+      {
+        "icon": "work",
+        "title": "First operation",
+        "content": "I arrived to my first unit, attached to a communicaitons platoon, and was informed that I would participate in my first operation. In support of an overseas NATO exercise, I had my first opportunity to assist in the setup of a WAN (Wide Area Network)! Something my platoon would do together many more times."
+      }
+    ]
+  },
+  {
+    "year": "2017",
+    "events": [
+      {
+        "icon": "work",
+        "title": "Graduate Highschool",
+        "content": "Graduated from highschool in New Jersey, USA with plans to join the United States Marine Corps."
+      },
+      {
+        "icon": "work",
+        "title": "Bootcamp",
+        "content": "Left home for bootcamp and completed the thirteen weeks of recruit training."
+      }
+    ]
+  }
+]

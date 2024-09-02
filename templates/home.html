@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">Ubuntu</span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='user'>{{ common.alias }}</span><span class="at">@</span><span
+                                class="path">/home/{{ common.first_name|lower }}{{ common.last_name|lower
+                                }}/</span>><span class="caret">$</span></span>
+                        <span class="typed"></span>
+                        <form>><span class="caret">$</span>&nbsp;<input type="text" name="response" /></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="middle-text">
+            <p class="text-content">Hey, I'm Erdi! My journey began as a data system administrator in the Marine Corps,
+                where I discovered a
+                passion for programming. After comleting my contract with the military, I decided to attend the
+                Univeristy of Michigan-Ann Arbor
+                and study Computer Science to further pursue this interest in tech.
+            </p>
+
+            <p class="text-content">I describe myself as a lifelong learner and am always a student to something new,
+                whether it's skills pertaining to my career or my personal life. At the moment, my personal studies
+                include practicing guitar and learning Albanian.
+            </p>
+
+            <p class="text-content">For more info about me, check out my <a href="timeline">timeline</a>. To contact me,
+                connect with me on LinkedIn or click the gmail link below to email me.
+            </p>
+
+            <p class="text-content">-Erdi Hida</p>
+
+            <br>
+        </div>
+        <div class="social-icons">
+            <a target="_blank" href="https://github.com/Erdi-H">
+                <img class="title-logo" src="static/images/github.svg">
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/erdi-hida/">
+                <img class="title-logo" src="static/images/linkedin-logo.svg">
+            </a>
+            <a href="mailto:ehida19@gmail.com?Subject=Hello%20Erdi%20-from-website" target="_top">
+                <img class="title-logo" src="static/images/gmail-logo.svg">
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

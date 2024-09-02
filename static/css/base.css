@@ -1,0 +1,127 @@
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin: 20px 10px 10px 10px;
+  font: bolder;
+}
+
+nav {
+  padding: 0px;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bebdbd;
+}
+
+.navbar-title {
+  line-height: 1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 60px;
+}
+
+.navbar-title h1 {
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+nav ul {
+  text-align: right;
+}
+
+.navbar-ref {
+  color: #808080;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1094px) {
+  .navbar-ref {
+    font-size: 14px;
+  }
+}
+
+/* Mobile width - stack and center navbar items */
+@media only screen and (max-width: 600px) {}
+
+a::selection,
+span::selection {
+  background: #ffb7b7;
+}
+
+a::selection,
+span::-moz-selection {
+  background: #ffb7b7;
+}
+
+
+/*
+body {
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-ref {
+  color: #808080;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.navbar-ul {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.list-inline {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  margin: 20px 0;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1094px) {
+  .list-inline {
+    width: 100%;
+  }
+
+  .navbar-ref {
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+a::selection,
+span::selection {
+  background: #ffb7b7;
+}
+
+a::selection,
+span::-moz-selection {
+  background: #ffb7b7;
+}
+*/
