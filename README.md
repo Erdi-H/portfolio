@@ -1,4 +1,4 @@
-# My personal portfolio --> <a href="">link doesnt work for now</a>
+# My personal portfolio --> <a href="https://www.erdi.io/">www.erdi.io</a>
 
 ## Description
 This project was developed using Python Flask, Jinja2, HTML and CSS.
