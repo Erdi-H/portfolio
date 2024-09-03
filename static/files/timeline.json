@@ -13,7 +13,7 @@
     "year": "2022",
     "events": [
       {
-        "icon": "work",
+        "icon": "school",
         "title": "Started attending university",
         "content": "Two months after leaving the Marine Corps, I started studying Computer Science at the University of Michigan-Ann Arbor."
       }
@@ -38,8 +38,8 @@
         "content": "I arrived to my first unit, attached to a communicaitons platoon, and was informed that I would participate in my first operation. In support of an overseas NATO exercise, I had my first opportunity to assist in the setup of a WAN (Wide Area Network)! Something my platoon would do together many more times."
       },
       {
-        "icon": "work",
-        "title": "Completion of Training",
+        "icon": "school",
+        "title": "Completion of Military Schooling",
         "content": "Following bootcamp there are two additional schools I needed to attend. The first was MCT (Marine Combat Training) which is one month long. The second was my occupational school, the Data Systems Administrator course, which served as my introduction to the field of IT."
       }
     ]
@@ -53,7 +53,7 @@
         "content": "Left home for basic training and completed the thirteen weeks of recruit training."
       },
       {
-        "icon": "work",
+        "icon": "school",
         "title": "Graduated Highschool",
         "content": "Graduated from highschool in New Jersey, USA with plans to join the United States Marine Corps."
       }

@@ -70,25 +70,25 @@ ul li a {
 
 @media only screen and (max-width: 5000px) {
   .fixed-wrapper {
-    top: calc(30% - 135px);
+    top: calc(25% - 135px);
   }
 }
 
 @media only screen and (max-width: 1800px) {
   .fixed-wrapper {
-    top: calc(35% - 135px);
+    top: calc(30% - 135px);
   }
 }
 
 @media only screen and (max-width: 1700px) {
   .fixed-wrapper {
-    top: calc(40% - 135px);
+    top: calc(35% - 135px);
   }
 }
 
 @media only screen and (max-width: 1600px) {
   .fixed-wrapper {
-    top: calc(50% - 135px);
+    top: calc(45% - 135px);
   }
 }
 
