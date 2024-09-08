@@ -1,18 +1,23 @@
-.cards-container {
-  max-width: 950px;
-}
-
-/* Really dumb hardcoded work around*/
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: .5rem;
-  font-weight: 500;
-  line-height: 1.2;
-  color: inherit;
-  margin-top: 0;
-}
-
 .contruction {
   text-align: center;
   margin-top: 50px;
 }
+
+.card {
+  width: 250px;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 15px;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* Phone Width Query: 1 column */
+@media screen and (max-width: 700px) {}
+
+/* Tablet Width Query: 2 columns */
+@media screen and (min-width: 701px) {}
+
+/* Laptop Width Query: 3 columns */
+@media screen and (min-width: 1000px) {}

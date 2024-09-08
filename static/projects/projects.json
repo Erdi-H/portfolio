@@ -1,44 +1,28 @@
 {
   "projects": [
     {
-      "name": "Project 2",
-      "link": "project-2",
-      "date": "04/05/2023",
-      "short": "A short description of the project ...",
+      "title": "Portfolio",
+      "link": "https://github.com/Erdi-H/portfolio",
+      "date": "08/2024",
+      "short": "The website you are currently on!",
       "weight": 1,
-      "tags": [
-        "media"
-      ],
-      "photos": [
-        "/static/projects/project-2/img.jpg"
-      ]
+      "photo": "/static/projects/img.jpg"
     },
     {
-      "name": "Project 1",
-      "link": "project-1",
-      "date": "01/02/2023",
-      "short": "A short description of the project ...",
-      "status": "complete",
-      "weight": 2,
-      "tags": [
-        "tech"
-      ],
-      "photos": [
-        "/static/projects/project-1/img.jpg"
-      ]
+      "title": "Search Engine",
+      "link": "https://github.com/Erdi-H/search-engine",
+      "date": "08/2024",
+      "short": "Search engine school project.",
+      "weight": 1,
+      "photo": "/static/projects/img.jpg"
     },
     {
-      "name": "Project 2",
-      "link": "project-2",
-      "date": "04/05/2023",
-      "short": "A short description of the project ...",
+      "title": "Instagram Clone",
+      "link": "https://github.com/Erdi-H/instagram-clone",
+      "date": "08/2024",
+      "short": "Search engine school project.",
       "weight": 1,
-      "tags": [
-        "media"
-      ],
-      "photos": [
-        "/static/projects/project-2/img.jpg"
-      ]
+      "photo": "/static/projects/img.jpg"
     }
   ]
 }

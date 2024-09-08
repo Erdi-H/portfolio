@@ -289,13 +289,3 @@ ul li a {
   color: rgba(255, 255, 255, 0.9);
   border-bottom: 1px dotted rgba(255, 255, 255, 0.9);
 }
-
-/* Really dumb hardcoded work around*/
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: .5rem;
-  font-weight: 500;
-  line-height: 1.2;
-  color: inherit;
-  margin-top: 0;
-}
