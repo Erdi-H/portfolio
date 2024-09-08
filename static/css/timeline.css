@@ -23,6 +23,7 @@
 }
 
 .container {
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   max-width: 750px;
