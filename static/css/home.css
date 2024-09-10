@@ -120,6 +120,11 @@ ul li a {
 
   .scroll-wrapper {
     align-items: center;
+    margin: 10px;
+  }
+
+  .middle-text {
+    margin: 15px;
   }
 
   .social-icons {
