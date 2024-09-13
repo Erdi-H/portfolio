@@ -5,15 +5,12 @@ body {
   padding: 0;
 }
 
-h1 {
-  margin: 20px 10px 10px 10px;
+nav h1 {
+  margin: 0px 0px 0px 10px;
   font: bolder;
-  font-size: 2.5rem;
-  margin-bottom: .5rem;
-  font-weight: 500;
-  line-height: 1.2;
+  font-size: 2rem;
+  font-weight: 600;
   color: inherit;
-  margin-top: 0;
 }
 
 nav {
@@ -23,10 +20,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
-}
-
-.navbar-title {
-  line-height: 1;
 }
 
 nav ul {
@@ -42,10 +35,14 @@ nav li {
   padding-right: 60px;
 }
 
-.navbar-title h1 {
+.navbar-title {
+  display: flex;
+  align-items: center;
+  line-height: 1;
   text-align: left;
-  padding-left: 5px;
-  padding-top: 5px;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 nav ul {
@@ -55,13 +52,15 @@ nav ul {
 .navbar-ref {
   color: #808080;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
 }
 
 .navbar-ref:hover {
   color: black;
-  text-decoration: underline;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
 }
 
 /* Mobile width - stack and center navbar items */
