@@ -9,7 +9,7 @@
 <div class="container">
     <div class="row">
         {% for year in timeline %}
-        <div class="col s12 m4 l8">
+        <div class="year">
             <span class="date">{{ year.year }}</span>
             <ul class="list">
                 {% for event in year.events %}
