@@ -4,9 +4,10 @@ $(function () {
       "stat erdihida<br/>" +
       /*"><span class='caret'>$</span> job: <br/> ^100" +*/
       "><span class='caret'>$</span> programming: C++, C#, Python, Javascript, SQL<br/> ^300" +
-      "><span class='caret'>$</span> frameworks: Flask, React<br/> ^300" +
+      "><span class='caret'>$</span> frameworks: Python Flask, React.js<br/> ^300" +
+      "><span class='caret'>$</span> certifications: CompTIA Security+, CompTIA Network+<br/> ^300" +
       "><span class='caret'>$</span> hobbies: reading, lifting weights, movies<br/> ^300" +
-      "><span class='caret'>$</span> langauges: English, Albanain(beginner), Spanish(beginner)<br/> ^100"
+      "><span class='caret'>$</span> langauges: English, Albanian(beginner), Spanish(beginner)<br/> ^100"
     ],
     showCursor: true,
     cursorChar: '_',
