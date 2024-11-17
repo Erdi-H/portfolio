@@ -4,8 +4,6 @@ body {
 }
 
 .container {
-  height: 100%;
-  max-width: none;
   margin: 0;
   display: flex;
   justify-content: flex-end;
@@ -26,16 +24,14 @@ body {
 }
 
 .scroll-wrapper {
-  height: 100%;
   display: flex;
   flex-direction: column;
   margin-right: 1.5%;
 }
 
 .fixed-wrapper {
-  position: fixed;
   right: 50%;
-  top: calc(50% - 135px);
+  top: 1px;
 }
 
 ul li a {
@@ -69,28 +65,11 @@ ul li a {
   margin: 20px 0px 20px 0px;
 }
 
-@media only screen and (max-width: 5000px) {
-  .fixed-wrapper {
-    top: calc(25% - 135px);
-  }
-}
-
-@media only screen and (max-width: 1800px) {
-  .fixed-wrapper {
-    top: calc(30% - 135px);
-  }
-}
-
-@media only screen and (max-width: 1700px) {
-  .fixed-wrapper {
-    top: calc(35% - 135px);
-  }
-}
-
-@media only screen and (max-width: 1600px) {
-  .fixed-wrapper {
-    top: calc(45% - 135px);
-  }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
 }
 
 @media only screen and (max-width: 1094px) {
@@ -125,12 +104,6 @@ ul li a {
 
   .middle-text {
     margin: 15px;
-  }
-
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   #terminal {
@@ -170,7 +143,6 @@ ul li a {
 
 #terminal .terminal .window-title {
   background: linear-gradient(top, #dedede, #c0c0c0);
-  width: calc(100% - 16px);
   height: 8%;
   text-align: center;
   border-top-left-radius: 8px;
@@ -179,7 +151,6 @@ ul li a {
 }
 
 #terminal .terminal .window-title .win-buttons {
-  position: relative;
   width: 15%;
   left: -11px;
   float: left;
