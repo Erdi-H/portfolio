@@ -7,7 +7,7 @@ $(function () {
       "><span class='caret'>$</span> frameworks: Python Flask, React.js, Vue.js<br/> ^300" +
       "><span class='caret'>$</span> certifications: CompTIA Security+, CompTIA Network+<br/> ^300" +
       "><span class='caret'>$</span> hobbies: reading, lifting weights, movies, cooking<br/> ^300" +
-      "><span class='caret'>$</span> langauges: English, Albanian(beginner), Spanish(beginner)<br/> ^100"
+      "><span class='caret'>$</span> langauges: English, Albanian(beginner)<br/> ^100"
     ],
     showCursor: true,
     cursorChar: '_',

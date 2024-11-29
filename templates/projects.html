@@ -7,11 +7,7 @@
 {% endblock %}
 
 {% block body %}
-<p class="contruction">Sorry, this page is recieving a makeover right now!</p>
-<p class="contruction">If you want to see the code for this website and a little bit of my work, please check out my <a
-        target="_blank" href="https://github.com/Erdi-H">github</a>.</p>
-
-<!--<div class="container">
+<div class="container">
     {% for project in projects %}
     <div class="card">
         <div class="top">
@@ -19,9 +15,16 @@
             <p>{{ project.date }}</p>
         </div>
         <img src="{{ project.photo }}" alt="project photo">
-        <p>{{ project.short }}</p>
-        <a href="{{ project.link }}">Github repo</a>
+        <div class="bottom">
+            <p>{{ project.short }}</p>
+            <ul>
+                {% for tool in project.tools %}
+                <li>{{ tool }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <a href="{{ project.link }}" target="_blank">Github Repo</a>
     </div>
     {% endfor %}
-</div>-->
+</div>
 {% endblock %}

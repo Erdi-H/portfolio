@@ -4,25 +4,70 @@
       "title": "Portfolio",
       "link": "https://github.com/Erdi-H/portfolio",
       "date": "08/2024",
-      "short": "The website you are currently on!",
-      "weight": 1,
-      "photo": "/static/projects/img.jpg"
+      "short": "The website you're currently on!",
+      "weight": 8,
+      "photo": "/static/projects/images/portfolio.png",
+      "tools": [
+        "Flask",
+        "Javascript",
+        "Jinja2",
+        "SQLite"
+      ]
     },
     {
       "title": "Search Engine",
       "link": "https://github.com/Erdi-H/search-engine",
-      "date": "08/2024",
-      "short": "Search engine school project.",
-      "weight": 1,
-      "photo": "/static/projects/img.jpg"
+      "date": "05/2024",
+      "short": "Search engine using Hadoop and Mapreduce model.",
+      "weight": 7,
+      "photo": "/static/projects/images/search-engine.png",
+      "tools": [
+        "Flask",
+        "SQLite",
+        "Jinja2",
+        "AWS (EC2)"
+      ]
     },
     {
       "title": "Instagram Clone",
       "link": "https://github.com/Erdi-H/instagram-clone",
-      "date": "08/2024",
-      "short": "Search engine school project.",
+      "date": "03/2024",
+      "short": "Instagram clone that supports all main features of a social media app.",
+      "weight": 7,
+      "photo": "/static/projects/images/insta-clone.png",
+      "tools": [
+        "Flask",
+        "React.js",
+        "SQLite",
+        "REST API",
+        "Jinja2",
+        "AWS (EC2)"
+      ]
+    },
+    {
+      "title": "Artist Search",
+      "link": "https://github.com/Erdi-H/artist-search",
+      "date": "11/2024",
+      "short": "Webpage for searching music artists.",
+      "weight": 2,
+      "photo": "/static/projects/images/artist-search.png",
+      "tools": [
+        "Vue.js",
+        "Javascript",
+        "Bootstrap"
+      ]
+    },
+    {
+      "title": "Asteroids",
+      "link": "https://github.com/Erdi-H/asteroids",
+      "date": "10/2024",
+      "short": "Asteroid game played using arrow keys.",
       "weight": 1,
-      "photo": "/static/projects/img.jpg"
+      "photo": "/static/projects/images/asteroids.png",
+      "tools": [
+        "Javascript",
+        "JQuery"
+      ]
     }
   ]
 }
