@@ -59,7 +59,7 @@ nav ul {
 
 .navbar-ref:hover {
   color: black;
-  text-decoration: line-through;
+  text-decoration: underline;
   text-decoration-thickness: 2px;
 }
 
