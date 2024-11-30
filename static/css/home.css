@@ -1,3 +1,9 @@
+.home-page {
+  color: black;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+
 body {
   height: 100vh;
   font-family: 'Open Sans', sans-serif;

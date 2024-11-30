@@ -1,3 +1,9 @@
+.timeline-page {
+  color: black;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+
 .date {
   display: block;
   color: #303030;
