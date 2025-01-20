@@ -10,8 +10,7 @@
       "tools": [
         "Flask",
         "Javascript",
-        "Jinja2",
-        "SQLite"
+        "Jinja2"
       ]
     },
     {

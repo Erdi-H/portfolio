@@ -3,11 +3,12 @@ $(function () {
     strings: [
       "stat erdihida<br/>" +
       /*"><span class='caret'>$</span> job: <br/> ^100" +*/
-      "><span class='caret'>$</span> programming: C++, C#, Python, Javascript, SQL<br/> ^300" +
-      "><span class='caret'>$</span> frameworks: Python Flask, React.js, Vue.js<br/> ^300" +
+      "><span class='caret'>$</span> programming: C++, C#, Python, Javascript, Java<br/> ^300" +
+      "><span class='caret'>$</span> web & database: HTML, CSS, SQL, REST API, Jinja<br/> ^300" +
+      "><span class='caret'>$</span> frameworks: Python Flask, React.js, Vue.js, Bootstrap<br/> ^300" +
+      "><span class='caret'>$</span> tools: Git, AWS(EC2), VSCode, Visual Studio<br/> ^300" +
       "><span class='caret'>$</span> certifications: CompTIA Security+, CompTIA Network+<br/> ^300" +
-      "><span class='caret'>$</span> hobbies: reading, lifting weights, movies, cooking<br/> ^300" +
-      "><span class='caret'>$</span> langauges: English, Albanian(beginner)<br/> ^100"
+      "><span class='caret'>$</span> hobbies: reading, lifting weights, movies, cooking<br/> ^300"
     ],
     showCursor: true,
     cursorChar: '_',
